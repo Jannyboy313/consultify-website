@@ -9,7 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { OurTeamComponent } from './our-team/our-team.component';
 import { HeadingComponent } from './heading/heading.component';
 import { FooterComponent } from './footer/footer.component';
-import { ContactComponent } from './contact/contact.component';
+import { CompanyComponent } from './company/company.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { ContactComponent } from './contact/contact.component';
     OurTeamComponent,
     HeadingComponent,
     FooterComponent,
-    ContactComponent
+    CompanyComponent
   ],
   imports: [
     BrowserModule,
