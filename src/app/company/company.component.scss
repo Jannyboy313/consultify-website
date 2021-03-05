@@ -1,0 +1,39 @@
+h6 {
+    margin: 10px 0 5px 0;
+}
+
+figure {
+    max-height: 35vh;
+    overflow: hidden;
+}
+
+.foundation {
+    max-width: 70%;
+    padding: 20px 30px 40px 40px;
+}
+
+.contact {
+    padding: 20px 25px 25px 30px;
+}
+
+a {
+    .bi {
+        margin-right:3px;
+        color: #212529;
+    }
+    color: #343a40;
+    :hover {
+        color: #212529;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .foundation {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .contact {
+        text-align: center;
+    }
+}

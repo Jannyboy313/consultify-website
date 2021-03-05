@@ -1,0 +1,21 @@
+article {
+    max-width: 100%;
+}
+
+img {
+    max-width: 200px;
+    margin: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    img {
+        max-width: 150px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    img {
+        max-width: 100px;
+        margin: 30px;
+    }
+}
