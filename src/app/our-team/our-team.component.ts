@@ -12,6 +12,8 @@ export class OurTeamComponent implements OnInit {
   quote: string;
   name: string;
   specialty: string;
+  linkedin: string;
+  github: string;
 
   constructor() { }
 
