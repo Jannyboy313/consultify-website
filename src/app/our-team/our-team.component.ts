@@ -21,15 +21,15 @@ export class OurTeamComponent implements OnInit {
 
   initiateData() {
     if (this.teammember === 1) {
-      this.image = '';
+      this.image = '../../assets/Jan.jpg';
       this.name = 'Jan van Overbeek';
       this.quote = 'Paarden kunnen niet vliegen, maar ganzen wel. Dus wees een gans'
     }else if(this.teammember === 2) {
-      this.image = '';
+      this.image = '../../assets/Koen.jpg';
       this.name = 'Koen van der Marel';
       this.quote = 'Koeien kunnen niet vliegen, maar ganzen wel. Dus wees een gans'
     }else {
-      this.image = '';
+      this.image = '../../assets/Jeroen.jpg';
       this.name = 'Jeroen Bol';
       this.quote = 'Eenden kunnen wel vliegen, maar paarden niet. Dus wees een eend'
     }
