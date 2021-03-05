@@ -7,24 +7,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./our-team.component.scss']
 })
 export class OurTeamComponent implements OnInit {
-  @Input() teammember: number;
+  @Input() teammember: string;
   image: string;
   quote: string;
   name: string;
 
-  constructor() {
+  constructor() { }
+
+  ngOnInit(): void {
     this.initiateData();
   }
 
-  ngOnInit(): void {
-  }
-
   initiateData() {
-    if (this.teammember === 1) {
+    if (this.teammember === 'Jan') {
       this.image = '../../assets/Jan.jpg';
       this.name = 'Jan van Overbeek';
       this.quote = 'Paarden kunnen niet vliegen, maar ganzen wel. Dus wees een gans'
-    }else if(this.teammember === 2) {
+    }else if(this.teammember === 'Koen') {
       this.image = '../../assets/Koen.jpg';
       this.name = 'Koen van der Marel';
       this.quote = 'Koeien kunnen niet vliegen, maar ganzen wel. Dus wees een gans'
