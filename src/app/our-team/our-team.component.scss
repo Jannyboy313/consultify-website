@@ -1,7 +1,8 @@
 article {
-    height: 75vh;
+    height: 50vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 0 20px 0 20px;
 }
 
@@ -10,9 +11,24 @@ figcaption {
 }
 
 .info {
-    margin-left: 50px;
+    margin: 0 50px 0 50px;
 }
 
 i {
     font-size: larger;
 }
+
+.profile {
+    margin-top: 10px;
+    float: right;
+    .icon {
+        margin: 0 3px 0 12px;
+    }
+    a {
+        color: #343a40;
+        :hover {
+            color: #212529;
+        }
+    }
+}
+

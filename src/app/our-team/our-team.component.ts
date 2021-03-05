@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OurTeamComponent implements OnInit {
   @Input() teammember: string;
+  @Input() inverse: boolean = false;
   image: string;
   quote: string;
   name: string;
