@@ -9,6 +9,10 @@
 a {
     font-size: large;
     font-weight: 500;
+    text-decoration: none;
+    :hover {
+        cursor: pointer;
+    }
 }
 
 .navbar-toggler {
