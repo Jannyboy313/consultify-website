@@ -32,7 +32,7 @@ export class OurTeamComponent implements OnInit {
       this.image = '../../assets/Koen.jpg';
       this.name = 'Koen van der Marel';
       this.quote = 'Koeien kunnen niet vliegen, maar ganzen wel. Dus wees een gans';
-      this.specialty = 'Billen afvegen';
+      this.specialty = 'Billen veger';
     }else {
       this.image = '../../assets/Jeroen.jpg';
       this.name = 'Jeroen Bol';
