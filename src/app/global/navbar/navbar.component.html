@@ -9,7 +9,7 @@
         </button>
 
         <div class="navbar-collapse collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav me-auto">
                 <li class="nav-item">
                     <a pageScroll href="#team" class="nav-link">{{ 'NAV.TEAM' | translate }}</a>
                 </li>
@@ -20,20 +20,21 @@
                     <a pageScroll href="#partners" class="nav-link">{{ 'NAV.PARTNERS' | translate }}</a>
                 </li>
             </ul>
-        </div>
-        <div class="dropstart justify-content-end">
-            <a class="dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="bi bi-globe"></i>
-            </a>
+            <div class="d-flex dropdown">
 
-            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                <li><a class="dropdown-item" href="#"
-                    (click)="setDutch()"
-                    >Nederlands</a></li>
-                <li><a class="dropdown-item" href="#"
-                    (click)="setEnglish()"
-                    >English</a></li>
-            </ul>
+                <a class="dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-globe"></i>
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                    <li><a class="dropdown-item" href="#"
+                        (click)="setDutch()"
+                        >Nederlands</a></li>
+                    <li><a class="dropdown-item" href="#"
+                        (click)="setEnglish()"
+                        >English</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </div>
 </nav>

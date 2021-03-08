@@ -22,11 +22,37 @@ a {
     font-size: large;
     font-weight: 500;
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.55);
     :hover {
         cursor: pointer;
     }
 }
 
+.dropdown {
+    .dropdown-menu {
+        right: 0;
+        left: auto;
+        li {
+            .dropdown-item {
+                font-size: small;
+            }
+        }
+    }
+
+    .dropdown-toggle {
+        padding: 10px;
+    }
+}
+
 .navbar-toggler {
     border: 0.5px solid transparent;
+}
+
+@media only screen and (max-width: 992px) {
+    .dropdown {
+        .dropdown-menu {
+            right: auto;
+            left: 0;
+        }
+    }
 }
