@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-heading',
@@ -17,6 +17,9 @@ export class HeadingComponent implements OnInit {
 
   ngOnInit(): void {
     this.initiateTitle();
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.initiateTitle();
+    });
   }
 
   initiateTitle() {
