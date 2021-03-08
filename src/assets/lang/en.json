@@ -7,9 +7,9 @@
     "FOOTER": {
         "ABOUT": "About us",
         "DESCRIPTION": [
-                        "We are Consulitfy a company that specialises in IT focused solutions",
-                        "Consultify consists of a 3 part team, whereby cooperation and goal oriented working",
-                        "the most important points are. Because we apply this work process, we are cheaper",
+                        "We are Consulitfy a company that specialises in IT focused solutions ",
+                        "Consultify consists of a 3 part team, whereby cooperation and goal oriented working ",
+                        "the most important points are. Because we apply this work process, we are cheaper ",
                         "and faster than the competitors."]
     },
     "COMPANY": {
@@ -22,7 +22,7 @@
             "working well in a team so that productivity is much higher than competitors. Furthermore, there is made ",
             "use of a special formula for customer contact. This allows the problem to be mapped out quickly ",
             "and therefore work on a solution more quickly. This technique is also called the consultifast (Patent ",
-            "pending)."], 
+            "pending)."],
         "CONTACT": "Contact information",
         "SUMMARY": "You can reach us through various channels.",
         "COMPANYEMAIL": "Company email"
