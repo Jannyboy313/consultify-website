@@ -8,13 +8,21 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor(translate: TranslateService) {
-    translate.setDefaultLang('nl');
-    translate.use('nl');
+  constructor(private translate: TranslateService) {
+    this.translate.setDefaultLang('nl');
+    this.translate.use('nl');
   }
 
 
   ngOnInit(): void {
   }
 
+  getDescription() {
+    let description = this.translate.instant("FOOTER.DESCRIPTION");
+    let output = '';
+    for (let i=0; i < description.length; i++) {
+      output += description[i];
+    }
+    return output;
+  }
 }
