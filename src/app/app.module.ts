@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { TranslateModule } from '@ngx-translate/core';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './global/navbar/navbar.component';
@@ -21,12 +22,13 @@ import { PartnersComponent } from './partners/partners.component';
     HeadingComponent,
     FooterComponent,
     CompanyComponent,
-    PartnersComponent,
+    PartnersComponent
   ],
   imports: [
     BrowserModule,
     NgxPageScrollCoreModule.forRoot({duration: 500, scrollOffset: 76, interruptible: true}),
-    NgxPageScrollModule
+    NgxPageScrollModule,
+    TranslateModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
