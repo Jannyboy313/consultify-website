@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,7 +7,10 @@ import { Component, OnInit, HostListener } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  constructor() { }
+  constructor(private translate: TranslateService) {
+    this.translate.setDefaultLang('nl');
+    this.translate.use('nl');
+  }
 
   ngOnInit(): void {
   }
@@ -16,10 +20,18 @@ export class NavbarComponent implements OnInit {
   onWindowScroll(e) {
     let element = document.querySelector('.navbar');
     if (window.pageYOffset > element.clientHeight) {
-      element.classList.add('light');
+      element.classList.add('scroll');
     } else {
-      element.classList.remove('light');
+      element.classList.remove('scroll');
     }
+  }
+
+  setDutch() {
+    this.translate.use('nl');
+  }
+
+  setEnglish() {
+    this.translate.use('en');
   }
 
 }

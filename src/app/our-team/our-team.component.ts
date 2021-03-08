@@ -1,5 +1,6 @@
 import { Input } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
+import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-our-team',
@@ -16,32 +17,38 @@ export class OurTeamComponent implements OnInit {
   linkedin: string;
   github: string;
 
-  constructor() { }
+  constructor(private translate: TranslateService) {
+    this.translate.setDefaultLang('nl');
+    this.translate.use('nl');
+  }
 
   ngOnInit(): void {
     this.initiateData();
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.initiateData();
+    });
   }
 
   initiateData() {
     if (this.teammember === 'Jan') {
       this.image = '../../assets/Jan.jpg';
       this.name = 'Jan van Overbeek';
-      this.quote = 'Paarden kunnen niet vliegen, maar ganzen wel. Dus wees een gans';
-      this.specialty = 'Backend Developer';
+      this.translate.get('OUR-TEAM.JAN-QUOTE').subscribe((text:string) => {this.quote = text});
+      this.translate.get('OUR-TEAM.JAN-SPEC').subscribe((text:string) => {this.specialty = text});
       this.linkedin = 'https://www.linkedin.com/in/jan-van-overbeek-7a1483174/';
       this.github = 'https://github.com/Jannyboy313'
     }else if(this.teammember === 'Koen') {
       this.image = '../../assets/Koen.jpg';
       this.name = 'Koen van der Marel';
-      this.quote = 'Koeien kunnen niet vliegen, maar ganzen wel. Dus wees een gans';
-      this.specialty = 'Billen veger';
+      this.translate.get('OUR-TEAM.KOEN-QUOTE').subscribe((text:string) => {this.quote = text});
+      this.translate.get('OUR-TEAM.KOEN-SPEC').subscribe((text:string) => {this.specialty = text});
       this.linkedin = 'https://www.linkedin.com/in/koen-van-der-marel-39b5b6176/';
       this.github = 'https://github.com/jerohero';
     }else {
       this.image = '../../assets/Jeroen.jpg';
       this.name = 'Jeroen Bol';
-      this.quote = 'Eenden kunnen wel vliegen, maar paarden niet. Dus wees een eend';
-      this.specialty = 'Frontend Developer';
+      this.translate.get('OUR-TEAM.JEROEN-QUOTE').subscribe((text:string) => {this.quote = text});
+      this.translate.get('OUR-TEAM.JEROEN-SPEC').subscribe((text:string) => {this.specialty = text});
       this.linkedin = 'https://www.linkedin.com/in/jeroen-bol/';
       this.github = 'https://github.com/KeithMarex';
     }

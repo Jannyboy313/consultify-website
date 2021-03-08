@@ -1,0 +1,37 @@
+{
+    "NAV": {
+        "TEAM": "Our Team",
+        "COMPANY": "Company",
+        "PARTNERS": "Partners"
+    },
+    "FOOTER": {
+        "ABOUT": "About us",
+        "DESCRIPTION": ["We are Consulitfy a company that specialises in IT focused solutions ",
+                        "Consultify consists of a 3 part team, whereby cooperation and goal oriented working ",
+                        "the most important points are. Because we apply this work process, we are cheaper ",
+                        "and faster than the competitors."]
+    },
+    "COMPANY": {
+        "FOUNDATION": "Foundation",
+        "ABOUT": ["Consultify was founded on February 16, 2021 by Jan van Overbeek, Jeroen Bol and Koen van der Marel. ",
+            "The founders had the goal of improving IT consultancy. All consultancy was up to now ",
+            "only a solution on paper with which the customer had to make the elaboration himself. This is very expensive, ",
+            "slow and inefficient. Consultify is the solution for this by not only finding a targeted solution ",
+            "but also to work out this solution. The ways in which this company has achieved its goals is taking care of ",
+            "working well in a team so that productivity is much higher than competitors. Furthermore, there is made ",
+            "use of a special formula for customer contact. This allows the problem to be mapped out quickly ",
+            "and therefore work on a solution more quickly. This technique is also called the consultifast (Patent ",
+            "pending)."],
+        "CONTACT": "Contact information",
+        "SUMMARY": "You can reach us through various channels.",
+        "COMPANYEMAIL": "Company email"
+    },
+    "OUR-TEAM": {
+        "JAN-SPEC": "Backend developer",
+        "KOEN-SPEC": "Butt sweeper",
+        "JEROEN-SPEC": "Frontend developer",
+        "JAN-QUOTE": "Horses can't fly, but geese can. So be a goose HONK HONK HONK",
+        "KOEN-QUOTE": "I'll tell you the secret to become rich on Wall Street. You're going to wipe the buttocks of rich people. ",
+        "JEROEN-QUOTE": "Someone who combines HTML, CSS and Javascript could be called a frontend developer. "
+    }
+}
