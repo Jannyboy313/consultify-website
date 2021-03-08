@@ -19,7 +19,7 @@ export class NavbarComponent implements OnInit {
 
   onWindowScroll(e) {
     let element = document.querySelector('.navbar');
-    if (window.pageYOffset > element.clientHeight) {
+      if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
       element.classList.add('scroll');
     } else {
       element.classList.remove('scroll');
