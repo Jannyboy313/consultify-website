@@ -7,9 +7,9 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  constructor(translate: TranslateService) {
-    translate.setDefaultLang('nl');
-    translate.use('nl');
+  constructor(private translate: TranslateService) {
+    this.translate.setDefaultLang('nl');
+    this.translate.use('nl');
   }
 
   ngOnInit(): void {
@@ -24,6 +24,14 @@ export class NavbarComponent implements OnInit {
     } else {
       element.classList.remove('light');
     }
+  }
+
+  setDutch() {
+    this.translate.use('nl');
+  }
+
+  setEnglish() {
+    this.translate.use('en');
   }
 
 }
