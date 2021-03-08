@@ -10,7 +10,7 @@ export class NavbarComponent implements OnInit {
   constructor(translate: TranslateService) {
     translate.setDefaultLang('nl');
     translate.use('nl');
-}
+  }
 
   ngOnInit(): void {
   }
