@@ -35,7 +35,6 @@ export function createTranslateLoader(http: HttpClient) {
     HttpClientModule,
     NgxPageScrollCoreModule.forRoot({duration: 500, scrollOffset: 76, interruptible: true}),
     NgxPageScrollModule,
-    TranslateHttpLoader,
     TranslateModule.forRoot({
       defaultLanguage: 'nl',
       loader: {
@@ -43,7 +42,7 @@ export function createTranslateLoader(http: HttpClient) {
           useFactory: createTranslateLoader,
           deps: [HttpClient]
       }
-  })
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
