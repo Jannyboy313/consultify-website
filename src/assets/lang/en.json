@@ -1,0 +1,38 @@
+{
+    "NAV": {
+        "TEAM": "Our Team",
+        "COMPANY": "Company",
+        "PARTNERS": "Partners"
+    },
+    "FOOTER": {
+        "ABOUT": "About us",
+        "DESCRIPTION": [
+                        "We are Consulitfy a company that specialises in IT focused solutions",
+                        "Consultify consists of a 3 part team, whereby cooperation and goal oriented working",
+                        "the most important points are. Because we apply this work process, we are cheaper",
+                        "and faster than the competitors."]
+    },
+    "COMPANY": {
+        "FOUNDATION": "Foundation",
+        "ABOUT": ["Consultify is op 16 februari 2021 opgericht door Jan van Overbeek, Jeroen Bol en Koen van der Marel.",
+        "De oprichters hadden het doel voor ogen de IT consultancy te verbeteren. Alle consultancy was tot heden",
+        "alleen een oplossing op papier waarmee de klant zelf de uitwerking moest maken. Dit is behalve heel duur ook",
+        "langzaam en inefficient. Consultify is hiervoor de oplossing door behalve een gerichte oplossing te vinden",
+        "deze oplossing ook uit te werken. De manieren waarop dit bedrijf zijn doelen heeft bereikt is het verzorgen van",
+        "het goed werken in team verband waardoor de productiviteit veel hoger is als concurenten. Verder wordt er gebruik",
+        "gemaakt van een speciale formule voor het klant contact. Hierdoor kan het probleem snel in kaart gebracht worden",
+        "en hierdoor ook snel aan een oplossing gewerkt worden. Deze techniek word ook wel de consultifast genoemd (Patent",
+        "aangevraagd)."],
+        "CONTACT": "Contact information",
+        "SUMMARY": "You can reach us through various channels.",
+        "COMPANYEMAIL": "Company email"
+    },
+    "OUR-TEAM": {
+        "JAN-SPEC": "Backend developer",
+        "KOEN-SPEC": "Butt sweeper",
+        "JEROEN-SPEC": "Frontend developer",
+        "JAN-QUOTE": "Horses can't fly, but geese can. So be a goose HONK HONK HONK",
+        "KOEN-QUOTE": "I'll tell you the secret to become rich on Wall Street. You're going to wipe the buttocks of rich people. ",
+        "JEROEN-QOUTE": "Someone who combines HTML, CSS and Javascript could be called a frontend developer. "
+    }
+}

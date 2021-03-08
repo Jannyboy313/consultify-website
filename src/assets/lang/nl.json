@@ -24,7 +24,7 @@
         "aangevraagd)."],
         "CONTACT": "Contact informatie",
         "SUMMARY": "U kunt ons bereiken via verschilllende kanalen.",
-        "COMPANYEMAIL": "Bedrijfs email"
+        "COMPANYEMAIL": "Bedrijfsmail"
     },
     "OUR-TEAM": {
         "JAN-SPEC": "Backend ontwikkelaar",
@@ -32,6 +32,6 @@
         "JEROEN-SPEC": "Frontend ontwikkelaar",
         "JAN-QUOTE": "Paarden kunnen niet vliegen, maar ganzen wel. Dus wees een gans GAK GAK GAK",
         "KOEN-QUOTE": "Ik zal je het geheim tot rijkdom vertellen op Wall Street. Je gaat de billen van rijke mensen vegen.",
-        "JEROEN-QOUTE": "Iemand wie HTML, CSS en Javascript combineert zou een frontend ontwikkelaar kunnen worden genoemd."
+        "JEROEN-QOUTE": "Iemand die HTML, CSS en Javascript combineert zou een frontend ontwikkelaar kunnen worden genoemd."
     }
 }
