@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-heading',
@@ -7,9 +8,28 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HeadingComponent implements OnInit {
  @Input() title: string;
-  constructor() { }
+  displayTitle: string = '';
+
+  constructor(private translate: TranslateService) {
+    this.translate.setDefaultLang('nl');
+    this.translate.use('nl');
+  }
 
   ngOnInit(): void {
+    this.initiateTitle();
+    this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.initiateTitle();
+    });
+  }
+
+  initiateTitle() {
+    if (this.title === 'Ons Team') {
+      this.translate.get('NAV.TEAM').subscribe((text:string) => {this.displayTitle = text});
+    }else if(this.title === 'Bedrijf') {
+      this.translate.get('NAV.COMPANY').subscribe((text:string) => {this.displayTitle = text});
+    }else {
+      this.translate.get('NAV.PARTNERS').subscribe((text:string) => {this.displayTitle = text});
+    }
   }
 
 }

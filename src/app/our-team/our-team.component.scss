@@ -41,3 +41,42 @@ i {
     background: rgb(117,209,83);
     background: linear-gradient(94deg, rgba(117,209,83,0) 0%, rgba(140,202,250,0.2) 100%);
 }
+
+@media only screen and (max-width: 768px) {
+    .profile {
+        float: right !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    figure {
+        img {
+            max-width: 70%;
+        }
+        text-align: center;
+    }
+
+    .info {
+        font-size: small;
+        margin: 0 10px 0 10px;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    figure {
+        img {
+            max-width: 60%;
+        }
+        text-align: center;
+    }
+
+    article {
+        height: 60vh;
+    }
+
+    .info {
+        margin: 0;
+    }
+
+}

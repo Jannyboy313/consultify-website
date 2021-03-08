@@ -1,0 +1,37 @@
+{
+    "NAV": {
+        "TEAM": "Ons Team",
+        "COMPANY": "Bedrijf",
+        "PARTNERS": "Partners"
+    },
+    "FOOTER": {
+        "ABOUT": "Over ons",
+        "DESCRIPTION": ["Wij zijn Consultify een bedrijf die zich specialiseert in IT gerichte oplossingen. ",
+                        "Consultify bestaat uit een 3 delig team, waarbij samenwerking en doelgericht werken ",
+                        "de belangrijkste punten zijn. Doordat wij dit werkproces toepassen zijn wij goedkoper ",
+                        "en sneller dan de concurrentie."]
+    },
+    "COMPANY": {
+        "FOUNDATION": "Oprichting",
+        "ABOUT": ["Consultify is op 16 februari 2021 opgericht door Jan van Overbeek, Jeroen Bol en Koen van der Marel. ",
+        "De oprichters hadden het doel voor ogen de IT consultancy te verbeteren. Alle consultancy was tot heden ",
+        "alleen een oplossing op papier waarmee de klant zelf de uitwerking moest maken. Dit is behalve heel duur ook ",
+        "langzaam en inefficient. Consultify is hiervoor de oplossing door behalve een gerichte oplossing te vinden ",
+        "deze oplossing ook uit te werken. De manieren waarop dit bedrijf zijn doelen heeft bereikt is het verzorgen van ",
+        "het goed werken in teamverband waardoor de productiviteit veel hoger is als concurenten. Verder wordt er gebruik ",
+        "gemaakt van een speciale formule voor het klant contact. Hierdoor kan het probleem snel in kaart gebracht worden ",
+        "en hierdoor ook snel aan een oplossing gewerkt worden. Deze techniek word ook wel de consultifast genoemd (Patent ",
+        "in afwachting)."],
+        "CONTACT": "Contact informatie",
+        "SUMMARY": "U kunt ons bereiken via verschilllende kanalen.",
+        "COMPANYEMAIL": "Bedrijfsmail"
+    },
+    "OUR-TEAM": {
+        "JAN-SPEC": "Backend ontwikkelaar",
+        "KOEN-SPEC": "Billen veger",
+        "JEROEN-SPEC": "Frontend ontwikkelaar",
+        "JAN-QUOTE": "Paarden kunnen niet vliegen, maar ganzen wel. Dus wees een gans GAK GAK GAK",
+        "KOEN-QUOTE": "Ik zal je het geheim tot rijkdom vertellen op Wall Street. Je gaat de billen van rijke mensen vegen.",
+        "JEROEN-QUOTE": "Iemand die HTML, CSS en Javascript combineert zou een frontend ontwikkelaar kunnen worden genoemd."
+    }
+}
