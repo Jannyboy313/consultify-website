@@ -33,7 +33,7 @@ export function createTranslateLoader(http: HttpClient) {
   imports: [
     BrowserModule,
     HttpClientModule,
-    NgxPageScrollCoreModule.forRoot({duration: 500, scrollOffset: 76, interruptible: true}),
+    NgxPageScrollCoreModule.forRoot({duration: 500, interruptible: true}),
     NgxPageScrollModule,
     TranslateModule.forRoot({
       defaultLanguage: 'nl',
