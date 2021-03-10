@@ -2,3 +2,10 @@
     max-height: 65vh;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 576px) {
+    .carousel-item {
+        max-height: 60vh;
+        overflow: hidden;
+    }
+}
