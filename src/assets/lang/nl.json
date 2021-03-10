@@ -7,7 +7,7 @@
     "FOOTER": {
         "ABOUT": "Over ons",
         "DESCRIPTION": ["Wij zijn Consultify een bedrijf die zich specialiseert in IT gerichte oplossingen. ",
-                        "Consultify bestaat uit een 3 delig team, waarbij samenwerking en doelgericht werken ",
+                        "Consultify bestaat uit een 3-delig team, waarbij samenwerking en doelgericht werken ",
                         "de belangrijkste punten zijn. Doordat wij dit werkproces toepassen zijn wij goedkoper ",
                         "en sneller dan de concurrentie."]
     },
@@ -18,20 +18,18 @@
         "alleen een oplossing op papier waarmee de klant zelf de uitwerking moest maken. Dit is behalve heel duur ook ",
         "langzaam en inefficient. Consultify is hiervoor de oplossing door behalve een gerichte oplossing te vinden ",
         "deze oplossing ook uit te werken. De manieren waarop dit bedrijf zijn doelen heeft bereikt is het verzorgen van ",
-        "het goed werken in teamverband waardoor de productiviteit veel hoger is als concurenten. Verder wordt er gebruik ",
+        "het goed werken in teamverband waardoor de productiviteit veel hoger is dan concurenten. Verder wordt er gebruik ",
         "gemaakt van een speciale formule voor het klant contact. Hierdoor kan het probleem snel in kaart gebracht worden ",
-        "en hierdoor ook snel aan een oplossing gewerkt worden. Deze techniek word ook wel de consultifast genoemd (Patent ",
+        "en ook snel aan een oplossing gewerkt worden. Deze techniek word ook wel de consultifast genoemd (Patent ",
         "in afwachting)."],
         "CONTACT": "Contact informatie",
         "SUMMARY": "U kunt ons bereiken via verschilllende kanalen.",
         "COMPANYEMAIL": "Bedrijfsmail"
     },
     "OUR-TEAM": {
-        "JAN-SPEC": "Backend ontwikkelaar",
-        "KOEN-SPEC": "Billen veger",
-        "JEROEN-SPEC": "Frontend ontwikkelaar",
-        "JAN-QUOTE": "Paarden kunnen niet vliegen, maar ganzen wel. Dus wees een gans GAK GAK GAK",
-        "KOEN-QUOTE": "Ik zal je het geheim tot rijkdom vertellen op Wall Street. Je gaat de billen van rijke mensen vegen.",
-        "JEROEN-QUOTE": "Iemand die HTML, CSS en Javascript combineert zou een frontend ontwikkelaar kunnen worden genoemd."
+        "SPEC": "Full Stack Ontwikkelaar",
+        "JAN-QUOTE": "Leergierig en gelukkig in het toekomstig beroep dat ik uitoefen namelijk Informatica Software Engineering. Momenteel al kennis van 7 Programmeertalen en dat worden er veel meer! Bij Consultify ben ik verantwoordelijk voor verschillende taken zoals het onderhouden van deze website. Dit doe ik met veel plezier en zal ik nog voor de aankomende jaren doen.",
+        "KOEN-QUOTE": "Een enthousiaste ontwikkelaar die passie heeft voor de nieuwste en mooiste UI trends. Ik verdiep mij graag in verbredende projecten en streef voor grootse tevredenheid bij iedere klant. Consultify heeft mij in de mogelijkheid gesteld om mij te ontwikkelen op dit gebied en heeft mij geleerd hoe gezellig werken in team verband wel niet is.",
+        "JEROEN-QUOTE": "Nog een student die het leuk vind om te programmeren. Ik vind het tof om dingen te bouwen die op het internet leven, en daarbij wil ik dat ze er zo aantrekkelijk mogelijk uit zien. Onder Consultify heb ik ontdekt waar ik nou écht voor leef; gezelligheid en werkende code!"
     }
 }

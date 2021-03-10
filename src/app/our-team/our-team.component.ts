@@ -34,21 +34,18 @@ export class OurTeamComponent implements OnInit {
       this.image = '../../assets/Jan.jpg';
       this.name = 'Jan van Overbeek';
       this.translate.get('OUR-TEAM.JAN-QUOTE').subscribe((text:string) => {this.quote = text});
-      this.translate.get('OUR-TEAM.JAN-SPEC').subscribe((text:string) => {this.specialty = text});
       this.linkedin = 'https://www.linkedin.com/in/jan-van-overbeek-7a1483174/';
       this.github = 'https://github.com/Jannyboy313'
     }else if(this.teammember === 'Koen') {
       this.image = '../../assets/Koen.jpg';
       this.name = 'Koen van der Marel';
       this.translate.get('OUR-TEAM.KOEN-QUOTE').subscribe((text:string) => {this.quote = text});
-      this.translate.get('OUR-TEAM.KOEN-SPEC').subscribe((text:string) => {this.specialty = text});
       this.linkedin = 'https://www.linkedin.com/in/koen-van-der-marel-39b5b6176/';
       this.github = 'https://github.com/jerohero';
     }else {
       this.image = '../../assets/Jeroen.jpg';
       this.name = 'Jeroen Bol';
       this.translate.get('OUR-TEAM.JEROEN-QUOTE').subscribe((text:string) => {this.quote = text});
-      this.translate.get('OUR-TEAM.JEROEN-SPEC').subscribe((text:string) => {this.specialty = text});
       this.linkedin = 'https://www.linkedin.com/in/jeroen-bol/';
       this.github = 'https://github.com/KeithMarex';
     }

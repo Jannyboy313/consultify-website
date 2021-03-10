@@ -2,3 +2,21 @@
     max-height: 65vh;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 992px) {
+    .carousel-item {
+        max-height: 53vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-item {
+        max-height: 41vh;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .carousel-item {
+        max-height: 31vh;
+    }
+}
