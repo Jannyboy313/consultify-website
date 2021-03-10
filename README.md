@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.\
 It also uses [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) version 5.0.0-beta 2.\
 This in combination with [Bootstrap Icons](https://icons.getbootstrap.com/) version 1.4.0.\
-For a multilanguage site I have used [ngx-translate](https://github.com/ngx-translate/core) version 13.0.0.
+For a multilanguage site I have used [ngx-translate](https://github.com/ngx-translate/core) version 13.0.0.\
 Project can be found [here](https://consulitfy.org)
 
 ## Development server
