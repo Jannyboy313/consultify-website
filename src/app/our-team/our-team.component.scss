@@ -13,6 +13,7 @@ figcaption {
 
 .info {
     margin: 0 50px 0 50px;
+    max-width: 50%;
 }
 
 i {
@@ -46,6 +47,22 @@ i {
     .profile {
         float: right !important;
     }
+
+    figure {
+        img {
+            max-width: 80%;
+        }
+        figcaption {
+            font-size: smaller;
+        }
+        text-align: center;
+    }
+
+    .info {
+        font-size: small;
+        max-width: 100%;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -54,6 +71,10 @@ i {
             max-width: 70%;
         }
         text-align: center;
+    }
+
+    article {
+        height: 60vh;
     }
 
     .info {
@@ -69,10 +90,6 @@ i {
             max-width: 60%;
         }
         text-align: center;
-    }
-
-    article {
-        height: 60vh;
     }
 
     .info {
