@@ -9,7 +9,7 @@ figure {
 
 .foundation {
     max-width: 70%;
-    padding: 20px 30px 40px 40px;
+    padding: 20px 40px 30px 40px;
 }
 
 .contact {
@@ -35,5 +35,11 @@ a {
 
     .contact {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .foundation {
+        padding: 0 20px 10px 20px;
     }
 }
