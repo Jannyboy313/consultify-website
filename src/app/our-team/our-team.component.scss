@@ -84,16 +84,27 @@ i {
 
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 375px) {
     figure {
         img {
             max-width: 60%;
         }
-        text-align: center;
+    }
+
+    article {
+        height: 70vh;
     }
 
     .info {
+        font-size: smaller;
         margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    .info {
+        font-size: x-small;
     }
 
 }
